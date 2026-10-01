@@ -79,8 +79,6 @@ Trimestre = "T" & QUARTER(D_Calendario[Date])
 
 A coluna `Mes` foi ordenada por `Mes_Num` (**Sort by column**) para aparecer de janeiro a dezembro, e não em ordem alfabética.
 
-> Ajuste aqui se a sua fórmula for diferente (por exemplo, com anos fechados usando `DATE(YEAR(...), 1, 1)`).
-
 ### 6. Relacionamentos
 Criados manualmente na **Model view**, arrastando a chave da dimensão para a fato e conferindo cardinalidade e direção do filtro em **Manage relationships**. Desativei o **Auto date/time** para o Power BI não criar tabelas de data ocultas além da `D_Calendario`.
 
